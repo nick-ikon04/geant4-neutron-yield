@@ -1,0 +1,15 @@
+/control/verbose 1
+/run/verbose 1
+
+/detector/material W
+/detector/halfLength 10 mm
+
+/beam/particle proton
+/beam/energy 100 MeV
+/beam/targetHalfLength 10 mm
+
+/analysis/fileName proton_100_W
+
+/run/reinitializeGeometry
+/run/initialize
+/run/beamOn 10000

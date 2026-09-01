@@ -1,0 +1,15 @@
+/control/verbose 2
+/run/verbose 2
+/tracking/verbose 1
+
+/detector/useUranium false
+/detector/halfLength 10 mm
+
+/beam/particle proton
+/beam/energy 800 MeV
+/beam/targetHalfLength 10 mm
+
+/analysis/fileName debug
+
+/run/initialize
+/run/beamOn 10

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository."
+title: "Geant4 Neutron Yield Study"
+type: software
+authors:
+  - family-names: "Ikon"
+    given-names: "Nick"
+repository-code: "https://github.com/nick-ikon04/geant4-neutron-yield"
+version: 0.1.0
+date-released: 2026-09-01

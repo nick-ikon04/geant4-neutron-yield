@@ -1,0 +1,26 @@
+# ---------- TALYS input for key (n,x) reactions ----------
+# Projectile and target nucleus
+projectile n
+element __ELEMENT__          # I, Cs, Am
+mass    __MASS__             # 129, 135, 241
+
+# Energy grid: logarithmic from thermal to fast neutrons
+energy_grid log 1.0e-5 20.0 400
+# (от 0.01 эВ до 20 МэВ, 400 точек)
+
+# Output file prefix
+outfilename __TAG__
+
+# Restrict TALYS to only main reaction channels
+# (capture = (n,γ), 2n, p, α)
+channels capture 2n p alpha
+
+# Activate output files we need
+# sigma      → σ(E) по каналам
+# residual   → остаточные ядра для каждого (n,x)
+# out        → лог с моделями, параметрами, Q-значениями
+output sigma residual
+
+# Optional verbose output for diagnostics (можно убрать, чтобы ускорить)
+printlevel 0
+# ---------------------------------------------------------

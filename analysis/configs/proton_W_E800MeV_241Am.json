@@ -1,0 +1,31 @@
+{
+  "case_tag": "proton_W_E800MeV_241Am",
+  "target_material": "W",
+  "beam_particle": "proton",
+  "beam_energy_MeV": 800.0,
+  "beam_current_A": 0.002,
+  "isotope": "241Am",
+  "atomic_mass_g_mol": 241.056822,
+  "density_g_cm3": 11.9,
+  "volume_cm3": 1.0,
+  "irradiation_time_s": 86400,
+  "grid_points": 2000,
+  "flux_source": {
+    "kind": "histogram",
+    "histogram_path": "../../results/proton/W/E800MeV/L20mm_R20mm_S0p5mm/run_h1_hNeutronEnergy.csv",
+    "metadata_path": "../../results/proton/W/E800MeV/L20mm_R20mm_S0p5mm/run_metadata.json"
+  },
+  "cross_section": {
+    "path": "../data/talys/241Am",
+    "energy_column": "energy_MeV",
+    "column_prefix": "sigma_",
+    "column_suffix": "_b",
+    "product_half_lives_s": {
+      "n,f": 0.0,
+      "n,2n": 180000.0,
+      "n,p": 440000000.0,
+      "n,alpha": 6.8e13,
+      "n,3n": 40000.0
+    }
+  }
+}

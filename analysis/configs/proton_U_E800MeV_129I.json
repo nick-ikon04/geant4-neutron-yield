@@ -1,0 +1,31 @@
+{
+  "case_tag": "proton_U_E800MeV_129I",
+  "target_material": "U",
+  "beam_particle": "proton",
+  "beam_energy_MeV": 800.0,
+  "beam_current_A": 0.002,
+  "isotope": "129I",
+  "atomic_mass_g_mol": 128.904984,
+  "density_g_cm3": 4.93,
+  "volume_cm3": 1.0,
+  "irradiation_time_s": 86400,
+  "grid_points": 2000,
+  "flux_source": {
+    "kind": "histogram",
+    "histogram_path": "../../results/proton/U/E800MeV/L200mm_R20mm_S0p5mm/run_h1_hNeutronEnergy.csv",
+    "metadata_path": "../../results/proton/U/E800MeV/L200mm_R20mm_S0p5mm/run_metadata.json"
+  },
+  "cross_section": {
+    "path": "../data/talys/129I",
+    "energy_column": "energy_MeV",
+    "column_prefix": "sigma_",
+    "column_suffix": "_b",
+    "product_half_lives_s": {
+      "n,gamma": 44496.0,
+      "n,2n": 1500.0,
+      "n,p": 3600.0,
+      "n,alpha": 10000.0,
+      "n,3n": 600.0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+# CMake / Geant4
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Generated simulation and analysis output
+/results/
+/out/
+analysis/transmutation_results*/
+tools/talys/output/
+tools/talys/runs/
+*.root
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and editors
+.env
+.env.*
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# Archives and temporary files
+*.zip
+*.tar
+*.tar.gz
+*.7z
+tmp/
+tmp*/
+dry-run-preview/
+
+# Superseded archive helpers retained locally but not published
+scripts/run_talys_grid.sh
+scripts/plot_yield_with_new_points.py
