@@ -87,8 +87,8 @@ tests/                     Python smoke and data-parser tests
 
 See [`docs/CODE_AUDIT.md`](docs/CODE_AUDIT.md) for the release audit and known limitations.
 
-## License and data provenance
+## Rights and data provenance
 
-The source code and documentation are released under the [MIT License](LICENSE). The numerical files under `analysis/data/talys` are generated TALYS 2.0 outputs and are included only to make the parser examples reproducible; they are not relicensed by the MIT license. See their [provenance note](analysis/data/talys/README.md).
+No open-source license has been selected yet; copyright therefore remains with the author. The numerical files under `analysis/data/talys` are generated TALYS 2.0 outputs and are included only to make the parser examples reproducible. See their [provenance note](analysis/data/talys/README.md).
 
 
